@@ -1,0 +1,67 @@
+App 797961 output: /opt/passenger-5.3.7-9.el6.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 797961 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 797961 output: Traceback (most recent call last):
+App 797961 output:   File "/opt/passenger-5.3.7-9.el6.cloudlinux/src/helper-scripts/wsgi-loader.py", line 369, in <module>
+App 797961 output:     app_module = load_app()
+App 797961 output:   File "/opt/passenger-5.3.7-9.el6.cloudlinux/src/helper-scripts/wsgi-loader.py", line 76, in load_app
+App 797961 output:     return imp.load_source('passenger_wsgi', startup_file)
+App 797961 output:   File "/home/unbsr9pl99of/virtualenv/sohelweb2/wedding-master/wedding-master/3.7/lib64/python3.7/imp.py", line 171, in load_source
+App 797961 output:     module = _load(spec)
+App 797961 output:   File "<frozen importlib._bootstrap>", line 696, in _load
+App 797961 output:   File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+App 797961 output:   File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+App 797961 output:   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+App 797961 output:   File "/home/unbsr9pl99of/sohelweb2/wedding-master/wedding-master/passenger_wsgi.py", line 8, in <module>
+App 797961 output:     
+App 797961 output: wsgi = imp.load_source('wsgi', 'app.py')
+App 797961 output:   File "/home/unbsr9pl99of/virtualenv/sohelweb2/wedding-master/wedding-master/3.7/lib64/python3.7/imp.py", line 171, in load_source
+App 797961 output:     module = _load(spec)
+App 797961 output:   File "<frozen importlib._bootstrap>", line 696, in _load
+App 797961 output:   File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+App 797961 output:   File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+App 797961 output:   File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+App 797961 output:   File "app.py", line 1, in <module>
+App 797961 output:     
+App 797961 output: from flask import Flask, render_template,request
+App 797961 output: ModuleNotFoundError
+App 797961 output: : No module named 'flask'
+App 802246 output: /opt/passenger-5.3.7-9.el6.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 802246 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 802246 output: [ pid=802246, time=2021-04-27 01:00:24,469 ]: /home/unbsr9pl99of/virtualenv/sohelweb2/wedding-master/wedding-master/3.7/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py:852: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+App 802246 output:   'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+App 802246 output: 
+App 802246 output: [ pid=802246, time=2021-04-27 01:00:24,469 ]: /home/unbsr9pl99of/virtualenv/sohelweb2/wedding-master/wedding-master/3.7/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py:873: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+App 802246 output:   'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+App 802246 output: 
+App 818882 output: /opt/passenger-5.3.7-9.el6.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 818882 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 818882 output: [ pid=818882, time=2021-04-27 01:00:40,053 ]: /home/unbsr9pl99of/virtualenv/sohelweb2/wedding-master/wedding-master/3.7/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py:852: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+App 818882 output:   'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+App 818882 output: 
+App 818882 output: [ pid=818882, time=2021-04-27 01:00:40,053 ]: /home/unbsr9pl99of/virtualenv/sohelweb2/wedding-master/wedding-master/3.7/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py:873: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+App 818882 output:   'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+App 818882 output: 
+App 820423 output: /opt/passenger-5.3.7-9.el6.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 820423 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 820423 output: [ pid=820423, time=2021-04-27 01:00:41,613 ]: /home/unbsr9pl99of/virtualenv/sohelweb2/wedding-master/wedding-master/3.7/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py:852: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+App 820423 output:   'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+App 820423 output: 
+App 820423 output: [ pid=820423, time=2021-04-27 01:00:41,613 ]: /home/unbsr9pl99of/virtualenv/sohelweb2/wedding-master/wedding-master/3.7/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py:873: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+App 820423 output:   'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+App 820423 output: 
+App 821424 output: /opt/passenger-5.3.7-9.el6.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 821424 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 821424 output: [ pid=821424, time=2021-04-27 01:00:42,477 ]: /home/unbsr9pl99of/virtualenv/sohelweb2/wedding-master/wedding-master/3.7/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py:852: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+App 821424 output:   'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+App 821424 output: 
+App 821424 output: [ pid=821424, time=2021-04-27 01:00:42,478 ]: /home/unbsr9pl99of/virtualenv/sohelweb2/wedding-master/wedding-master/3.7/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py:873: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+App 821424 output:   'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+App 821424 output: 
+App 830436 output: /opt/passenger-5.3.7-9.el6.cloudlinux/src/helper-scripts/wsgi-loader.py:26: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+App 830436 output:   import sys, os, io, re, imp, threading, signal, traceback, socket, select, struct, logging, errno
+App 830436 output: [ pid=830436, time=2021-04-27 01:01:06,041 ]: /home/unbsr9pl99of/virtualenv/sohelweb2/wedding-master/wedding-master/3.7/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py:852: UserWarning: Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. Defaulting SQLALCHEMY_DATABASE_URI to "sqlite:///:memory:".
+App 830436 output:   'Neither SQLALCHEMY_DATABASE_URI nor SQLALCHEMY_BINDS is set. '
+App 830436 output: 
+App 830436 output: [ pid=830436, time=2021-04-27 01:01:06,041 ]: /home/unbsr9pl99of/virtualenv/sohelweb2/wedding-master/wedding-master/3.7/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py:873: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+App 830436 output:   'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+App 830436 output: 
